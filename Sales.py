@@ -101,7 +101,8 @@ sales_df.to_csv("Sales_Clean.csv",index=False)
 #===================================================================================================
 print("\nData Types:\n",sales_df.dtypes)
 sales_df.info()
-print("No Changes")
+
+print()
 
 #=================================================================================================
 # Close Connection
